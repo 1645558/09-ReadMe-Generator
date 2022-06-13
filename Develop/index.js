@@ -4,8 +4,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-inquirer
-    .prompt([
+const questions = [
         {
             type: 'input',
             message: 'What is the title of your project?',
@@ -63,14 +62,7 @@ inquirer
             message: 'Please enter your email address',
             name: 'questions',
         },
-    ])
-    .then((data) => {
-        fileName = `${data.projecttitle.toLowerCase().split(' ').join('')}.json`
-
-        fs.writeFile(fileName, JSON.stringify(data, null, 2), (err) =>
-            err ? console.log(err) : console.log('Success!')
-        );
-    });
+    ]
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
