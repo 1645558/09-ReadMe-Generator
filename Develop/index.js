@@ -15,8 +15,43 @@ const questions = [
             {
                 type: 'input',
                 message: 'Write a brief description of your project',
-                name: 'description'
-            }
+                name: 'description',
+            },
+            {
+                type: 'input',
+                message: 'Write installation process if any',
+                name: 'installation',
+            },
+            {
+                type: 'input',
+                message: 'Write the usages',
+                name: 'usage',
+            },
+            {
+                type: 'list',
+                message: 'please choose a license used',
+                name: 'license',
+            },
+            {
+                type: 'input',
+                message: 'Please list contriibutors if any',
+                name: 'contributors',
+            },
+            {
+                type: 'test',
+                message: 'Is there a test included?',
+                name: 'test',
+            },
+            {
+                type: 'input',
+                message: 'Please enter a link to your github profile',
+                name: 'questions',
+            },
+            {
+                type: 'input',
+                message: 'Please enter your email address',
+                name: 'questions',
+            },
         ])
 ]
 
