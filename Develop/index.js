@@ -31,6 +31,15 @@ const questions = [
                 type: 'list',
                 message: 'please choose a license used',
                 name: 'license',
+                choices: [
+                    "Apache",
+                    "Academic",
+                    "GNU",
+                    "ISC",
+                    "MIT",
+                    "Mozilla",
+                    "Open"
+                ]
             },
             {
                 type: 'input',
