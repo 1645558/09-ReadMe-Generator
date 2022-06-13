@@ -26,6 +26,24 @@ ${data.description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
+## Installation
+${data.installtion}
+
+##Usage
+${data.usage}
+
+## License
+${data.license}
+
+## Contributors
+${data.contributors}
+
+## Tests
+${data.test}
+
+## Questions
+Email me with any questions: ${data.questions}
 `;
 }
 
