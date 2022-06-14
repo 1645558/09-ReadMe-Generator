@@ -38,8 +38,7 @@ const questions = [
             'Boost',
             'Creative',
             'Ecplipse',
-            'Mozilla',
-            'Unlicense'
+            'Mozilla'
         ]
     },
     {
