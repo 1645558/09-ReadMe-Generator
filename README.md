@@ -1,5 +1,6 @@
 # 09-ReadMe-Generator
 
-# Professional README Generator Starter Code
+## Description
+This is a README.md file generator! Watch the video below for a walkthrough on how it works!
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
