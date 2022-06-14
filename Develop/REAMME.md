@@ -19,7 +19,7 @@ AA
 AA
 
 ## License
-Apache
+![License](https://img.shields.io/badge/License-BSD-2-blue.svg)]
 
 ## Contributors
 AA

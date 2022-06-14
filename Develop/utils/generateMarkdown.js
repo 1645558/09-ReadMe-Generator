@@ -69,6 +69,30 @@ function renderLicenseSection(license) {
   if (license === 'Apache') {
     return `${data.license}`
   }
+  if (license === 'GNU') {
+    return `${data.license}`
+  }
+  if (license === 'MIT') {
+    return `${data.license}`
+  }
+  if (license === 'BSD-2') {
+    return `${data.license}`
+  }
+  if (license === 'BSD-3') {
+    return `${data.license}`
+  }
+  if (license === 'Boost') {
+    return `${data.license}`
+  }
+  if (license === 'Creative') {
+    return `${data.license}`
+  }
+  if (license === 'Eclipse') {
+    return `${data.license}`
+  }
+  if (license === 'Mozilla') {
+    return `${data.license}`
+  }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -94,7 +118,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${data.license}
+[![License](https://img.shields.io/badge/License-${data.license}-blue.svg)]
 
 ## Contributors
 ${data.contributors}
@@ -106,6 +130,5 @@ ${data.test}
 Email me with any questions: ${data.questions}
 `;
 };
-renderLicenseBadge();
-renderLicenseLink();
+
 module.exports = generateMarkdown;
